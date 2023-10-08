@@ -7,7 +7,11 @@
 
 import random
 
-num = random.randint(1,100)
+# 決定範圍
+start = int(input("請輸入隨機數字範圍的最小值："))
+end = int(input("請輸入隨機數字範圍的最大值："))
+
+num = random.randint(start,end)
 count = 0 # 計次用
 
 while True:
